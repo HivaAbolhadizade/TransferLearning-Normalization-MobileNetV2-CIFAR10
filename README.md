@@ -6,7 +6,12 @@ Additionally, the effect of **Gradient Clipping** on gradient stability and conv
 Experiments reveal that **FRN without Clipping** achieves the highest accuracy, while **Gradient Clipping** improves convergence for **BatchNorm**. LayerNorm also shows stable performance without clipping.
 
 ---
+## Project Structure
 
+- **Instruction**: Contains the project problem statement.  
+- **Solution**: Contains all implementation files, experiments, and the report.
+
+---
 🔹 **Normalization Techniques**
 
 * **BatchNorm**: Normalizes features across the batch dimension. Sensitive to small batch sizes.
