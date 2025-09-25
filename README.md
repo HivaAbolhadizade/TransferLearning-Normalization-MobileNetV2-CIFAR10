@@ -1,6 +1,7 @@
 # Transfer Learning Optimization on MobileNetV2 for CIFAR-10
 
 📌 **Overview**
+
 This project investigates the impact of three normalization techniques — **Batch Normalization (BatchNorm)**, **Layer Normalization (LayerNorm)**, and **Filter Response Normalization (FRN)** — in the context of **Transfer Learning** using the **MobileNetV2** architecture on the **CIFAR-10** dataset.
 Additionally, the effect of **Gradient Clipping** on gradient stability and convergence is analyzed.
 Experiments reveal that **FRN without Clipping** achieves the highest accuracy, while **Gradient Clipping** improves convergence for **BatchNorm**. LayerNorm also shows stable performance without clipping.
